@@ -142,7 +142,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/medium_gap"
                 android:layout_marginBottom="@dimen/medium_gap"
-                android:onClick="resetScores"
+                android:onClick="reset"
                 android:text="@string/action_reset" />
 
         </LinearLayout>
