@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
     fun addThreeTeamA(v:View) {
         var scoreA : Int = scoreViewModel.scoreTeamA
-        binding.scoreT = Score(scoreA + 3, scoreViewModel.scoreTeamB )
+        binding.scoreT = Score(scoreA + 3, scoreViewModel.scoreTeamB)
     }
 
     fun addThreeTeamB(v:View) {
