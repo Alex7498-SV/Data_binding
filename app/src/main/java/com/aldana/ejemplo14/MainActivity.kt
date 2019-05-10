@@ -38,13 +38,12 @@ class MainActivity : AppCompatActivity() {
 
     //TODO(1) NO SE SI FUNCIONARA
     fun addTwoTeamA(v:View) {
-        var scoreA : Int = scoreViewModel.scoreTeamA
-        binding.scoreT = Score(scoreA + 2, scoreViewModel.scoreTeamB )
+        binding.scoreT = Score(scoreViewModel.scoreTeamA +2 , scoreViewModel.scoreTeamB )
     }
 
     fun addTwoTeamB(v:View) {
-        var scoreB : Int = scoreViewModel.scoreTeamB
-        binding.scoreT = Score(scoreViewModel.scoreTeamA,scoreB + 2 )
+        scoreViewModel.scoreTeamB =+ 2
+        binding.scoreT = Score(scoreViewModel.scoreTeamA,scoreViewModel.scoreTeamB)
     }
 
     fun addThreeTeamA(v:View) {
