@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addTwoTeamB(v:View) {
-        scoreViewModel.scoreTeamB =+ 2
+        scoreViewModel.scoreTeamB += 2
         binding.scoreT = Score(scoreViewModel.scoreTeamA,scoreViewModel.scoreTeamB)
     }
 
